@@ -1,0 +1,45 @@
+{
+  "name": "react-next-mobx",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniStep15/react-typescript-next-mobx.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "mobx": "^6.13.6",
+    "mobx-persist-store": "^1.1.5",
+    "mobx-react": "^9.2.0",
+    "mobx-react-lite": "^4.1.0",
+    "next": "^15.1.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.8.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "sass": "^1.85.0"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/DaniStep15/react-typescript-next-mobx/issues"
+  },
+  "homepage": "https://github.com/DaniStep15/react-typescript-next-mobx#readme",
+  "keywords": [],
+  "author": "Danil",
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "eslint-config-next": "^15.1.7",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
